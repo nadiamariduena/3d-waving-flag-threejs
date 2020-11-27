@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.25;
+  overflow: hidden;
+  /*  */
+  background: #fff;
+  /* background-image: url(./NataliaSamoilova_metalmagazine-10.jpg); */
+  background-size: 25px 25px;
+  /* background-repeat: no-repeat; */
+  color: #000;
+}
+
+header {
+  position: fixed;
+  top: 48px;
+  left: 48px;
+  z-index: 1;
+}
+
+nav {
+  position: fixed;
+  top: 48px;
+  right: 48px;
+  z-index: 1;
+  /* can you add many zindex 1 ? */
+}
+
+h1,
+h2 {
+  color: rgb(14, 14, 14);
+}
+
+nav a {
+  color: #2727e6;
+  text-decoration: none;
+  margin: 0 0 0 24px;
+}
+nav a:hover {
+  color: rgb(17, 17, 24);
+}
+
+section.flag {
+  width: 100vw;
+  height: 100vh;
+}
