@@ -623,3 +623,10 @@ animate();
 //
 //
 ```
+
+<br>
+<br>
+
+### RESULT
+
+[<img src="./img/flag-test-vanillajs1.gif">]()
